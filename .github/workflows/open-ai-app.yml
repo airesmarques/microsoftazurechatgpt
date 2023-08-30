@@ -76,7 +76,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: ${{ env.AZURE_WEBAPP_NAME }}
+          app-name: eth-chatgpt-app-oofh7tzaq57ga
           package: ${{ github.workspace }}/Nextjs-site.zip
 
       - name: 🧹 Cleanup
